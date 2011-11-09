@@ -1,0 +1,10 @@
+development:
+  host: localhost
+  database: netcheck_development
+
+test:
+  host: localhost
+  database: netcheck_test
+
+production:
+  uri: <%= ENV['MONGOHQ_URL'] %>
